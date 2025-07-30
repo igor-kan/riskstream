@@ -1,7 +1,9 @@
 # Riskstream - Management Platform
 
 ## Project Overview
-riskstream is a web application for managing, analyzing, and visualizing insurance policies and risk data. The app provides tools for policy tracking, risk assessment, and reporting, helping organizations streamline their risk management processes.
+**Live Application**: https://igor-kan.github.io/riskstream/
+
+RiskStream is an advanced AI-powered risk assessment and management platform that revolutionizes how organizations identify, analyze, and mitigate financial, operational, and strategic risks. Built with sophisticated machine learning algorithms and predictive analytics, RiskStream provides real-time risk monitoring, intelligent threat detection, automated compliance checking, and comprehensive risk reporting to help businesses proactively manage their risk exposure and ensure operational resilience.
 
 ## Technology Stack
 - **Framework**: Vite
@@ -96,4 +98,57 @@ riskstream/
 - Enhanced user experience features
 - API integrations
 - Mobile app development
+
+
+
+## 🧭 Claude Code Navigation
+
+### Quick Commands
+**Development Scripts:**
+- `dev`: vite
+- `build`: vite build
+- `lint`: eslint .
+- `deploy`: gh-pages -d dist
+
+**Key Files:**
+- `package.json` - Dependencies and scripts configuration
+- `README.md` - Project documentation and setup guide
+- `CLAUDE.md` - Comprehensive development guide for Claude
+- `vite.config.ts` - Vite build tool configuration
+- `tailwind.config.ts` - Tailwind CSS styling configuration
+- `tsconfig.json` - TypeScript compiler configuration
+- `components.json` - shadcn/ui components configuration
+
+**Key Directories:**
+- `src/` - Source code and main application logic
+- `public/` - Static assets (images, icons, etc.)
+
+**Claude Code Files:**
+- `.claude/project-context.md` - Project overview and structure
+- `.claude/coding-standards.md` - Development guidelines and patterns
+- `.claude/commands/` - Custom Claude commands for common tasks
+- `.claude/context/` - Domain-specific development context
+
+
+### Quick Reference
+
+**Common Tasks:**
+- Start development: `npm run dev` or `bun dev`
+- Build project: `npm run build` or `bun build`
+- Lint code: `npm run lint` or `bun lint`
+- Deploy: `npm run deploy` or `bun deploy`
+
+**File Patterns:**
+- Components: `components/**/*.tsx`
+- Pages: `app/**/*.tsx` or `pages/**/*.tsx`
+- Utilities: `lib/**/*.ts`
+- Styles: `**/*.css` or use Tailwind classes
+- Tests: `**/*.test.ts` or `**/*.spec.ts`
+
+**Development Tips:**
+- Use TypeScript for type safety
+- Follow existing component patterns
+- Utilize shadcn/ui components
+- Implement responsive design with Tailwind
+- Test changes before committing
 
